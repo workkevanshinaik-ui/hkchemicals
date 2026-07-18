@@ -1,0 +1,3 @@
+export function renderErrorPage(): string {
+  return '<!doctype html><html lang="en"><head><meta charset="utf-8" /><title>This page did not load</title><meta name="viewport" content="width=device-width, initial-scale=1" /></head><body><h1>This page did not load</h1><p>Something went wrong. Try refreshing or go back home.</p><button onclick="location.reload()">Try again</button><a href="/">Go home</a></body></html>';
+}
